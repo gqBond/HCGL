@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+
+# Local configuration and credentials
+.env
+.env.*
+*.pem
+*.key
+.idea/
+.vscode/
+.DS_Store
+
+# Datasets and generated artifacts
+data/*
+!data/README.md
+cache/
+outputs/
+results/
+checkpoints/
+*.pt
+*.pth
+*.pkl
+*.log
+wandb/
