@@ -1,6 +1,6 @@
-# CGL_HAN
+# HCGL
 
-This repository contains the source code for continual learning on heterogeneous graphs with a HAN backbone. The release keeps the main HERO method, DMSG, FTF-ER, MetaCLGraph, and the formal baselines that are supported by the common training entry point. Test files, ablation-only code, parameter sweeps, local results, checkpoints, figures, caches, editor settings, and development notes are not included.
+The release keeps the main HERO method, DMSG, FTF-ER, MetaCLGraph, and the formal baselines that are supported by the common training entry point. Test files, ablation-only code, parameter sweeps, local results, checkpoints, figures, caches, editor settings, and development notes are not included.
 
 ## Environment
 
@@ -65,7 +65,7 @@ python3 main.py \
 
 ## Output
 
-Each JSON file records Average Performance, Average Forgetting, the full accuracy matrix, run times, the seed, and the main hyperparameters. `scripts/aggregate_results.py` computes the mean and sample standard deviation across seeds. Generated files are excluded by `.gitignore`.
+Each JSON file records Average Performance (AP), Average Forgetting (AF), the full accuracy matrix, run times, the seed, and the main hyperparameters. `scripts/aggregate_results.py` computes the mean and sample standard deviation across seeds. Generated files are excluded by `.gitignore`.
 
 ## Release scope
 
@@ -73,4 +73,13 @@ We have released part of the core code, including the implementation using the H
 
 ## License and citation
 
-The source code is released under the MIT License. Add the paper citation here when the public paper record is available. Dataset licenses and citations remain with their original providers.
+The source code is released under the MIT License. If you use this repository, please cite
+```bibtex
+@article{sun2025hero,
+  title={HERO: Heterogeneous Continual Graph Learning via Meta-Knowledge Distillation},
+  author={Sun, Guiquan and Zhang, Xikun and Ni, Jingchao and Song, Dongjin},
+  journal={arXiv preprint arXiv:2505.17458},
+  year={2025}
+}
+```
+
