@@ -70,16 +70,3 @@ Each JSON file records Average Performance (AP), Average Forgetting (AF), the fu
 ## Release scope
 
 We have released part of the core code, including the implementation using the HAN backbone. We will release the remaining code, including implementations for other backbones, once the paper is accepted.
-
-## License and citation
-
-The source code is released under the MIT License. If you use this repository, please cite
-```bibtex
-@article{sun2025hero,
-  title={HERO: Heterogeneous Continual Graph Learning via Meta-Knowledge Distillation},
-  author={Sun, Guiquan and Zhang, Xikun and Ni, Jingchao and Song, Dongjin},
-  journal={arXiv preprint arXiv:2505.17458},
-  year={2025}
-}
-```
-
